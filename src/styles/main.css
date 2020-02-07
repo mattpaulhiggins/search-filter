@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #737373;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+input[type="text"] {
+  letter-spacing: -0.03em;
+  font-size: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+input[type="text"]:focus {
+  outline: 0px;
+}
+
+input[type="text"]::-moz-selection {
+  background: black;
+  color: white;
+}
+
+input[type="text"]::selection {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
